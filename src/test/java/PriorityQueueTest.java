@@ -12,7 +12,7 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 public class PriorityQueueTest {
     static Stream<Arguments> stringIntAndListProvider() {
         return Stream.of(
-            Arguments.of(new Integer[]{1,3,2}, new Integer[]{1,3,4}),
+            Arguments.of(new Integer[]{1,3,4}, new Integer[]{1,3,4}),
             Arguments.of(new Integer[]{777}, new Integer[]{777}),
             Arguments.of(new Integer[]{2,7,4}, new Integer[]{2,4,7}),
             Arguments.of(new Integer[]{}, new Integer[]{}),
